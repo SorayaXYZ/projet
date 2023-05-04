@@ -1,0 +1,75 @@
+.section-1{
+    background: url('../My pictures/Abidjan\ 100vh.jpg');
+    width: 100%; 
+    background-size:cover;
+    height: 100vh;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 200ms;
+}
+nav{
+    margin-right: 70px;
+}
+nav a{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family:  'noto+serif+display';
+    font-weight: 400;
+    text-decoration: none;
+    color: #eee;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    padding: 10px 1px;
+    transition: 500ms;
+}
+
+nav a:hover{
+    border-color: #00B3FF;
+}
+.Logo{
+    flex: 1;
+    font-size: 35px;
+    margin-left: 70px;
+}
+@media (max-width: 769px){
+    
+    header{
+        flex-direction: column;
+        padding: 20px;
+    }
+    nav{
+        padding: 15px;;
+        margin: 0px;
+    }
+}
+
+.nav a{
+    padding: 8px 25px;
+}
+
+:root{
+    --orange: #ffa500;
+    --white:#eee;
+    --green:#008000;
+}
+
+.logo {
+    background-image: linear-gradient(to right, #ffa500, #ff9f6e, #ffacb5, #ffc7e8, #ffe2ff, #eae0ff, #d3deff, #bddcf9, #65cae6, #00b6b7, #009e6d, #008000);
+}
+
+.section-1 h2{
+    background-image: linear-gradient(to right, #ffa500, #ff9f6e, #ffacb5, #ffc7e8, #ffe2ff, #eae0ff, #d3deff, #bddcf9, #65cae6, #00b6b7, #009e6d, #008000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

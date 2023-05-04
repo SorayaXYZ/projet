@@ -1,0 +1,33 @@
+.card {
+    display: grid;
+    background-color:white;
+    width: 270px;
+    height: 270px;
+    margin: 10px;
+    }
+.card-image {
+    background-color: blanchedalmond;
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.container{
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+.Abidjan{
+    background-image:url(../Villes/Abidjan-Cote-Ivoire.webp);
+
+    }
+
+.Yakro {
+    background-image: url(../Villes/yamoussoukro.jpg);
+}
+
+.Korhogo {
+    background-image: url(../Villes/korhogo.jpeg);
+}
+
+.Man {
+    background-image: url(../Villes/Man.webp);
+}
