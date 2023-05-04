@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soraya website</title>
+    <link rel="stylesheet" href="Style/Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+
+
+<body>
+    <!-- HEADER -->
+    <section class="section-1">
+        <header>
+         <h2 class="Logo">Côte d'Ivoire - terre d'hospitalité</h2>
+          <nav class="navbar">
+            <ul>
+            <a href="#about">A propos</a>
+            <a href="#tourism">Tourisme</a>
+            <a href="#food">Gastronomie</a>
+            <a href="#contact">Contacts</a>
+            </ul>
+           </nav>
+        </header>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js " integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+     
+    <script>
+        $(document).ready(function(){
+            $(window).on('scroll', function(){
+                 if($(window).scrollTop()) {
+                     $("header").addClass('bgc');
+                 }else{
+                     $("header").addClass('bgc');
+                 }
+            });
+        });
+    </script>
+
+
+
+    <!-- btn up section -->
+    <a class="btn" href="#"> <i class="fas fa-arrow-up"> </i> </a>
+
+
+    <!-- About section --> 
+    <section id="about">
+        <h1>AKWABA</h1>
+        <p> sur notre site dédié à la Côte d'Ivoire, un pays de l'Afrique de l'Ouest aux multiples richesses. Que vous soyez passionné de tourisme, de nature, de gastronomie ou d'histoire, vous trouverez ici une mine d'informations sur les trésors que recèle ce pays aux mille couleurs. <br>
+            La Côte d'Ivoire est une destination qui regorge de sites touristiques à couper le souffle, que ce soit des plages paradisiaques bordées par l'océan Atlantique, des parcs nationaux où vivent des espèces animales et végétales uniques ou encore des villages pittoresques où le temps semble s'être arrêté.<br>
+            En plus de sa beauté naturelle, la Côte d'Ivoire est également célèbre pour sa cuisine délicieuse, qui allie les saveurs africaines et françaises. Les plats locaux sont préparés avec des ingrédients frais et variés, allant des fruits exotiques aux épices locales.<br>
+            Mais la richesse de la Côte d'Ivoire ne se limite pas à sa nature et à sa nourriture. Le pays a également une histoire fascinante, marquée par des siècles d'échanges commerciaux et culturels avec d'autres civilisations, qui ont laissé leur empreinte sur son patrimoine architectural et artistique.<br>
+            Nous sommes heureux de vous faire découvrir la Côte d'Ivoire à travers ce site, en espérant que vous serez aussi séduit par la diversité de ses paysages, la richesse de sa culture et la chaleur de son accueil.<br>
+            
+            *AKWABA: bienvenue en baoulé, dialecte d'un peuple du centre de la Côte d'Ivoire, aussi dialecte du 1er président du pays.</p>          
+    </section>
+    
+    <!-- Video section -->
+    <div class="bloc">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_Fs78U1i3sU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    
+    
+    <!-- Tourism section -->
+    <section id="tourism">
+        <h1>Tourisme</h1>
+         <p> Joyau de l'Afrique de l'Ouest, cette terre d'éburnie attire de plus en plus de visiteurs chaque année.
+            En 2019, le pays a enregistré près de 1,5 million d'arrivées touristiques, soit une hausse de 7,5% par rapport à l'année précédente. 
+            Cette augmentation s'explique par la richesse de son patrimoine culturel, de ses sites naturels exceptionnels et de l'accueil 
+            chaleureux de sa population. Parmi les sites incontournables de la Côte d'Ivoire, <br>
+            KORHOGO, dans le nord du pays, est une ville riche en traditions et en artisanat. Vous pourrez y découvrir des danses traditionnelles, 
+            des masques sculptés par des artisans locaux, et même vous initier à la teinture de tissus à l'indigo.<br>
+            
+            ABIDJAN, la capitale économique du pays, est une ville dynamique où se côtoient modernité et traditions. Vous pourrez y admirer des 
+            gratte-ciel impressionnants, visiter des musées et des galeries d'art contemporain,et déguster des plats délicieux dans les nombreux 
+            restaurants et marchés locaux.<br>
+            
+            YAMOUSSOUKRO, la capitale administrative de la Côte d'Ivoire, est célèbre pour la majestueuse Basilique Notre-Dame de la Paix, l'une des plus grandes
+            églises du monde. Cette ville vaut également le détour pour son architecture moderne, sa culture animiste et son marché coloré.<br>
+            
+            Enfin, MAN, nichée dans les montagnes de l'ouest, est une ville entourée d'une nature luxuriante et de cascades impressionnantes. Vous pourrez y découvrir 
+            des plantations de café, des villages traditionnels, et des paysages à couper le souffle.<br>
+            
+            Que vous soyez passionné de culture, de nature ou d'aventure, la Côte d'Ivoire est une destination qui saura vous séduire. </p>         
+    </section>
+
+    <!-- Town cards section -->
+    <section class="container">
+        <div class="card">
+            <div class="card-image Abidjan"></div>
+            <h3>Abidjan</h3>
+            <p> Le Plateau, quartier des affaires de la ville.</p>
+        </div>
+        <div class="card">
+            <div class="card-image Yakro"></div>
+            <h3>Yamoussoukro</h3>
+            <p>La Basilique Notre-Dame de la Paix, église monumentale.</p>
+         </div>
+         
+         <div class="card">
+            <div class="card-image Korhogo"></div>
+            <h3>Korhogo</h3>
+            <p>Les cases de Niofoin, village situé à 50km de la ville.</p>
+         </div>
+         
+         <div class="card">
+            <div class="card-image Man"></div>
+            <h3>Man</h3>
+            <p>Man et les cascades du Tonkpi, de la dent, et de Goban.</p>
+         </div>
+    </section>
+
+
+    <!-- Food section -->
+    <section id="food">
+        <h1>Gastronomie</h1>
+        <p>La cuisine ivoirienne est riche en saveurs et en couleurs, reflétant la diversité culturelle du pays. Elle se compose de plats à base de riz, de manioc,
+            de bananes plantains, de légumes, de poisson et de viande. <br>
+            L'un des plats nationaux est le garba fait à base d'attiéké", de la semoule de manioc servie avec du poisson thon grillé et du piment frais. 
+            Un autre plat populaire est le "foutou", une boule du manioc ou de la banane plantain pilée souvent accompagné d'une sauce épicée et de viande.
+            La cuisine ivoirienne comprend également des plats d'influence africaine, française et libanaise, comme le "poulet braisé" et les "brochettes". 
+            Les fruits tropicaux tels que la mangue, l'ananas et la papaye sont également largement utilisés dans les desserts et les boissons. <br>
+            En résumé, la gastronomie ivoirienne est une explosion de saveurs et de couleurs, reflétant la richesse et la diversité culturelle du pays. 
+            Les visiteurs de la Côte d'Ivoire devraient certainement goûter aux spécialités locales pour découvrir cette cuisine unique et délicieuse.</p>          
+    
+    </section>
+    
+    
+    <section id="portfolio">
+        <h1 class="headings"> Portfolio </h1>
+        <div class="gallery">
+            <img src="../My website/My pictures/Alloco-poisson-piment.jpg" alt="">
+            <img src="../My website/My pictures/attiéké poulet.jpg" alt="">
+            <img src="../My website/My pictures/placali.jpeg" alt="">
+            <img src="../My website/My pictures/garba.jpeg" alt="">
+            <img src="../My website/My pictures/foutou.jpg" alt="">
+            <img src="../My website/My pictures/foufou-sauce-kokotcha-.jpg" alt="">
+        </div>
+    </section>
+    
+    
+    <!-- Contact section -->
+    <section id="contact">
+        <div class="contact-section">
+            <h1>Contacts</h1>
+            <form class="contact-form" action="index.html" method="post">
+                <input type="text" class="contact-form-text" placeholder="Votre nom">
+                <input type="email" class="contact-form-text" placeholder="Votre email">
+                <input type="text" class="contact-form-text" placeholder="Notre numéro de téléphone">
+                <textarea class="contact-form-text" placeholder="Votre message"></textarea>
+                <input type="submit" class="contact-form-btn" value="Envoyer">
+            </form>  
+        </div>        
+    </section>
+
+      
+         <!-- Footer -->
+         <section class="footer">
+             <footer>
+                 <div class="footer-content">
+                     <h3>Côte d'Ivoire</h3>
+                     <p> Ambè! Aurevoir!</p>
+                     <ul class="socials">
+                        <li><a href="#"> <i class="fa fa-facebook"> </i></a></li>
+                        <li><a href="#"> <i class="fa fa-twitter"> </i></a></li>
+                        <li><a href="#"> <i class="fa fa-google-plus"> </i></a></li>
+                        <li><a href="#"> <i class="fa fa-youtube"> </i></a></li>
+                        <li><a href="#"> <i class="fa fa-linkedin-square"> </i></a></li>
+                    </ul>
+                 </div>
+             </footer>
+         </section>
+    
+    
+ 
+    
+
+</body>
+
+
+</html>
